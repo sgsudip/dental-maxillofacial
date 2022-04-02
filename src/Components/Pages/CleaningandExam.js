@@ -20,12 +20,12 @@ function CleaningandExam() {
             <p><strong>T</strong>eeth cleaning is the removal of dental plaque and tartar from teeth to prevent cavities, gingivitis, gum disease, and tooth decay. Severe gum disease causes at least one-third of adult tooth loss. Since before recorded history, a variety of oral hygiene measures have been used for teeth cleaning.</p>
           </Col>
           <Col md={4}>
-           <img src='images/tc.jpg'></img>
+           <img src='images/tc.jpg' alt='teeth cleanig'></img>
           </Col>
         </Row>
         <Row>
         <Col md={4}>
-        <img src='images/ttc.jpg'></img>
+        <img src='images/ttc.jpg' alt='teeth cleaning'></img>
         </Col>
         <Col md={7}>
           <h1>How is tooth cleaning done by dentist?</h1>
