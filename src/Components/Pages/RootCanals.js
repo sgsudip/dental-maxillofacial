@@ -20,12 +20,12 @@ function RootCanals() {
 Root canal treatment aims to treat this infected pulp tissue by removing infected pulp and filling the canals with artificial filling materials and finally restoring the damaged portion of the tooth. An artificial crown is placed to restore the function, esthetics and physiology of the tooth.</p>
         </Col>
         <Col md={4}>
-          <img src='images/rct1.jpg'></img>
+          <img src='images/rct1.jpg' alt='root canal'></img>
         </Col>
       </Row>
       <Row>
         <Col md={4}>
-          <img src='images/rct2.jpg'></img>
+          <img src='images/rct2.jpg' alt='root canal'></img>
         </Col>
         <Col md={7}>
           <h2>What Causes a Root Canal Infection? </h2>
@@ -55,7 +55,7 @@ Whether the patient is experiencing one or several of these symptoms, there is a
 </p>
         </Col>
       <Col md={4}>
-          <img src='images/rct3.jpg'></img>
+          <img src='images/rct3.jpg' alt='root canal'></img>
         </Col>
       </Row>
     </Container>
