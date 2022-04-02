@@ -46,7 +46,7 @@ Next, your dentist will probe or test the area during the decay removal process 
 Several additional steps are required for tooth-colored fillings and are as follows. After your dentist has removed the decay and cleaned the area, the tooth-colored material is applied in layers. Next, a special light that “cures” or hardens each layer is applied. When the multilayering process is completed, your dentist will shape the composite material to the desired result, trim off any excess material and polish the final restoration.</p>
   </Col>
   <Col md={4}>
-    <img src='images/tf.jpg'></img>
+    <img src='images/tf.jpg' alt='WhiteFilling'></img>
   </Col>
 </Row>
 
