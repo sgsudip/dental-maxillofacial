@@ -26,10 +26,10 @@ function OfficeInfo() {
                         </div>
                         <h5>Follow us!</h5>
                         <div className='px-2 mt-3 mb-3 follow-icon'>
-                        <Link to='#' className='follow-icon-link'><i className="fab fa-facebook"></i></Link>
-                        <Link to='#' className='follow-icon-link'><i className="fab fa-instagram-square"></i></Link>
-                        <Link to='#' className='follow-icon-link'><i className="fab fa-youtube"></i></Link>
-                        <Link to='#' className='follow-icon-link'><i className="fab fa-google-plus"></i></Link>
+                        <a href='https://facebook.com' className='follow-icon-link'><i className="fab fa-facebook"></i></a>
+                        <a href='https://instagram.com' className='follow-icon-link'><i className="fab fa-instagram-square"></i></a>
+                        <a href='https://youtube.com' className='follow-icon-link'><i className="fab fa-youtube"></i></a>
+                        <a href='https://googleplus.com' className='follow-icon-link'><i className="fab fa-google-plus"></i></a>
                         </div>
  
                      </Container>
