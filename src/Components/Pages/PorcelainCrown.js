@@ -20,12 +20,12 @@ function PorcelainCrown() {
         <p><strong>p</strong>orcelain crowns, ceramic crowns, or porcelain teeth, as they are sometimes referred to, are an option for people who have damaged teeth. These are custom-made caps or crowns that are bonded to the tooth, fitting over it and restoring the tooth to its original size, strength, and function.</p>
       </Col>
       <Col md={4}>
-        <img src='images/pc.jpg'></img>
+        <img src='images/pc.jpg' alt='Porcelain'></img>
       </Col>
        </Row>
        <Row>
        <Col md={4}>
-        <img src='images/pc1.jpg'></img>
+        <img src='images/pc1.jpg' alt='Porcelain'></img>
       </Col>
       <Col md={7} >
         <h2>Are Dental Crowns or Porcelain Crowns Painful?  </h2>
