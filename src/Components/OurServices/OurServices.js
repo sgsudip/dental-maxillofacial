@@ -54,7 +54,7 @@ function OurServices() {
                 <Col md={6} lg={4}>
                 <div className="item animated wow fadeIn">
                     <Image src='images/rootcanal.jpg' />
-                    <div cclassName="overlay top-overlay">
+                    <div className="overlay top-overlay">
                     <div className="text">ROOT CANAL TREATMENT</div>
                     </div>
                 </div>

@@ -10,7 +10,7 @@ function WhyChoose() {
 <Row>
 <Col md={4}>
 <Card border="light" className='text-center'>
-    <i class="far fa-check-circle"></i>
+    <i className="far fa-check-circle"></i>
     <Card.Body>
       <Card.Title>Compreshensive Services</Card.Title>
       <Card.Text>
@@ -24,12 +24,12 @@ function WhyChoose() {
 </Col>
 <Col md={4}>
 <Card border="light" className='text-center'>
-    <i class="far fa-check-circle"></i>
+    <i className="far fa-check-circle"></i>
     <Card.Body>
       <Card.Title>Care When You need it</Card.Title>
       <Card.Text>
-        We offer-same-day care for when you're in 
-       <br></br> paain or facing an emergency. Early 
+        We offer same day care for when you're in 
+       <br></br> pain or facing an emergency. Early 
        <br></br>morning and evening appointments are
        <br></br>availble to fit your busy schedule.
       </Card.Text>
@@ -38,7 +38,7 @@ function WhyChoose() {
 </Col>
   <Col md={4}>
   <Card border="light" className='text-center'>
-    <i class="far fa-check-circle"></i>
+    <i className="far fa-check-circle"></i>
     <Card.Body>
       <Card.Title >Your Confort, Our Priority</Card.Title>
       <Card.Text>

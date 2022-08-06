@@ -34,7 +34,7 @@ return (
                                     </Row>
                                     <Row>
                                      <Col md={6} sm={6}>
-                                     <Form.Label for="htmlFor">Select Gender</Form.Label>
+                                     <Form.Label htmlFor="">Select Gender</Form.Label>
                                      {['radio'].map((type) => (
                                         <div key={`inline-${type}`} className="mb-3">
                                         <Form.Check

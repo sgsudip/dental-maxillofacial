@@ -20,7 +20,7 @@ const NavbarMenu = (props) => {
     <div>
         <Navbar collapseOnSelect expand="lg" className='Navbar-menu shadow'  fixed='top'>
         <Container fluid>
-        <Navbar.Brand as={Link} to="/" eventKey={2}  className={size ? "navbar-logo img navbar-logo-size img" : "navbar-logo img "}><img src='images/logon.png' alt='main-shreeji-logo'/></Navbar.Brand>
+        <Navbar.Brand as={Link} to="/" eventkey={2}  className={size ? "navbar-logo img navbar-logo-size img" : "navbar-logo img "}><img src='images/logon.png' alt='main-shreeji-logo'/></Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" onClick={handleClick}><i className={click ? 'fas fa-times' : 'fas fa-bars' } style={{color:'black',transform:'Scale(1.3)'}}/></Navbar.Toggle>
         <Navbar.Collapse id="responsive-navbar-nav">
             <Nav className="ms-auto">

@@ -17,7 +17,7 @@ const HeroSection = () => {
             </span>
       <p>CENTER OF CENTERAL IMPLANTS  </p>
       <div className="hero-btn">
-      <button  className='btn btn-booking' eventKey={2}><Link to='/Book-online'> BOOK ONLINE</Link> </button>
+      <button  className='btn btn-booking' eventkey={2}><Link to='/Book-online'> BOOK ONLINE</Link> </button>
         </div>
         </div>
         
