@@ -9,7 +9,6 @@ import {
   BrowserRouter,
   Routes,
   Route,
-
 } from "react-router-dom";
 import GeneralDentistry from "./Components/Pages/GeneralDentistry";
 import CleaningandExam from "./Components/Pages/CleaningandExam";

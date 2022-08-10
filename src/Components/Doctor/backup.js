@@ -1,7 +1,7 @@
 // import React from "react";
 // import "./Doctor.css";
 // import { Container, Row, Col, Card } from "react-bootstrap";
-// // import Carousel from "../Carousel/Carousel";
+// import Carousel from "../Carousel/Carousel";
 
 // const Doctor = () => {
 //   const items = [
