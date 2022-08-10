@@ -1,49 +1,114 @@
-@import url('http://fonts.cdnfonts.com/css/virgo-01');  
-.doctor h1 {
-    text-align: center;
-    color: #C22ED0;
-    font-weight: 700;
-    text-shadow: 0px 0px 2px black;
-    margin-top: 1rem;
-    font-size: 2.5rem;
-    text-transform: uppercase;
+@import url("http://fonts.cdnfonts.com/css/virgo-01");
+.container {
+  width: 100%;
+  height: 100vh;
+  /* background: rgb(57, 49, 63); */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
-.doctor-conatiner {
-    margin-top: 4rem;
-    background: linear-gradient(156deg,  #C22ED0 50%,#5FFAE0 51%);
-    justify-content: center;
-    display: flex;
-    align-items: center;
-    height: 80vh;
+.container > h1 {
+  color: rgb(255, 234, 195);
+}
+
+.carousel {
+  width: 1000px;
+  height: 300px;
+  background: rgba(201, 165, 118, 0.37);
+  direction: rtl;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  overflow: hidden;
+}
+
+.carousel.active {
+  cursor: -webkit-grabbing;
+  cursor: grabbing;
+}
+
+.cWrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.item {
+  width: 700px;
+  height: 300px;
+  background: coral;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.item p {
+  position: relative;
+  top: -5px;
+  font-size: 5rem;
+  font-weight: bold;
+  color: #fff;
+  user-select: none;
+}
+
+.item:first-child {
+  margin-right: 0px !important;
+}
+
+.item:last-child {
+  margin-left: 0px !important;
+}
+
+.doctor h1 {
+  text-align: center;
+  color: #c22ed0;
+  font-weight: 700;
+  text-shadow: 0px 0px 2px black;
+  margin-top: 1rem;
+  font-size: 2.5rem;
+  text-transform: uppercase;
+}
+
+.doctor-card > image{
+    width: 300px;
+    height: 300px;
+}
+
+/* .doctor-conatiner {
+  margin-top: 4rem;
+  background: linear-gradient(156deg, #c22ed0 50%, #5ffae0 51%);
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  height: 80vh;
 }
 .doctor-conatiner .card {
-    width: 60rem;
-    padding: 2rem;
-    box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+  width: 60rem;
+  padding: 2rem;
+  box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
 }
 .doctor-conatiner .doctor-wrapper img {
-    height: 36vh;
-    margin-top: -4rem;
-    margin-left: -4rem;
-    box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+  height: 36vh;
+  margin-top: -4rem;
+  margin-left: -4rem;
+  box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
 }
-.doctor-conatiner .doctor-wrapper img:hover{
-    transform: scale(1.01);
-    transition: all 0.5s ease 0s;
+.doctor-conatiner .doctor-wrapper img:hover {
+  transform: scale(1.01);
+  transition: all 0.5s ease 0s;
 }
 .doctor-conatiner .doctor-wrapper .card-title {
-    margin-top: 2rem;
-    font-size: 30px;
-    color: rgb(224, 54, 173);
-    font-family: 'Virgo 01', sans-serif;
-                                                
-
+  margin-top: 2rem;
+  font-size: 30px;
+  color: rgb(224, 54, 173);
+  font-family: "Virgo 01", sans-serif;
 }
 
-@media (max-width: 992px)  {
-    .doctor-conatiner .doctor-wrapper img  {
-        margin-top: 0;
-        margin-left: 0;
-    }
-}
+@media (max-width: 992px) {
+  .doctor-conatiner .doctor-wrapper img {
+    margin-top: 0;
+    margin-left: 0;
+  }
+} */

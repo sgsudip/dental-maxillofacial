@@ -1,0 +1,156 @@
+#main-slider-container {
+    position: relative;
+    display: flex;
+    align-items: center;
+    width: 500px;
+    height: 500px;
+    margin: auto;
+    margin-bottom: 20px;
+    /* background: gray; */
+  }
+  
+  #slider {
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    white-space: nowrap;
+    overflow-x: scroll;
+    overflow-y: auto;
+    align-items: center;
+    scrollbar-width: none;
+    scroll-behavior: smooth;
+  }
+  
+  #slider::-webkit-scrollbar {
+    display: none;
+  }
+  
+  .slider-icon.left,
+  .slider-icon.right {
+    background: yellow;
+    border-radius: 100%;
+    position: absolute;
+    opacity: 0.5;
+  }
+  
+  .slider-icon:hover {
+    cursor: pointer;
+    opacity: 1;
+    box-shadow: 2px 2px 2px 2px rgb(0 0 0 / 12%);
+  }
+  
+  .slider-icon.left {
+    left: 0;
+  }
+  
+  .slider-icon.right {
+    right: 0;
+  }
+  
+  .slider-card {
+    width: 490px;
+    height: 480px;
+    background: white;
+    border-radius: 10px;
+    display: inline-block;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 8px;
+    box-shadow: 2px 2px 2px 2px rgb(0 0 0 / 12%);
+  }
+  
+  .slider-card-image-container{
+      width: 100%;
+      height: 200px;
+      background:grey;
+      border-top-left-radius: 10px;
+      border-top-right-radius: 10px;
+  }
+  
+  .slider-card-image{
+     height: 200px;
+     width: 100%;
+     border-top-left-radius: 10px;
+     border-top-right-radius: 10px;
+  }
+  
+  .slider-card-title{
+      width: 300px;
+      font-size: 2rem;
+      font-weight: 500; 
+      padding: 10px;
+      margin: 10px;
+  }
+  
+  .slider-card-description{
+      width:auto;
+      white-space: normal;
+      height: max-content;
+      padding: 10px;
+      margin: 10px;
+  }
+  
+  .draggable {
+      /* Indicate the element draggable */
+      /* cursor: move; */
+      /* It will be positioned absolutely */
+      /* position: absolute; */
+      /* Doesn't allow to select the content inside */
+      /* user-select: none; */
+  }
+
+  @media only screen and (max-width: 500px){
+    #main-slider-container{
+        width: 250px;
+        height: 300px;
+        font-size: 1rem;
+        margin-bottom: 25px;
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+    }
+    #slider{
+        width: 100%;
+        height: 100%;
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+    }
+    .slider-card{
+        width: 100%;
+        height: 300px;
+        margin-right: 0;
+        margin-left: 0;
+        background-color: rgb(68, 252, 233);
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+    }
+    .slider-card-image-container{
+        width: 250px;
+        height: 150px;
+    }
+    .slider-card-image{
+        width: 250px;
+        height: 150px;
+    }
+    .slider-card-title{
+        color: white;
+        height: 30px;
+        font-size: 1rem;
+        margin: 0;
+        padding:0 5px 0 5px;
+    }
+    .slider-card-description{
+        height: 160px;
+        color: white;
+        font-size: 0.65rem;
+        margin: 0;
+        padding: 0 5px 0 5px;
+    }
+    .slider-icon.left,
+    .slider-icon.right {
+      background: yellow;
+      border-radius: 100%;
+      position: absolute;
+      opacity: 0.8;
+      z-index: 100;
+    }
+  }
