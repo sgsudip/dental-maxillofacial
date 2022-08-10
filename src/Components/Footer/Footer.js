@@ -43,7 +43,7 @@ const Footer = () => {
   </div>
   <div className="row mt-5">
     <div className="col copyright">
-      <p className=""><small className="text-white-100">Designed and Seo By© <a  className='copyrightheading' href='https://softgenics.in'>SoftGenics</a></small></p>
+      <p className=""><small className="text-white-100">Designed and Developed By ©<a  className='copyrightheading' href='https://softgenics.in'>SoftGenics</a></small></p>
     </div>
   </div>
 </div>

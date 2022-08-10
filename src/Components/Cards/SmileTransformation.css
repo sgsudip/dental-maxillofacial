@@ -1,25 +1,27 @@
 .ImageComapreBg {
   padding: 4rem;
-  background:#5FFAE0 ;
+  background: #299aef;
   overflow: hidden;
-
 }
-.ImageComapre{
-  background-color:  #5FFAE0;
+
+.ImageComapre {
+  background-color: #299aef;
   margin-top: -1rem;
   overflow: hidden;
 }
+
 .ImageComapre h1 {
   text-align: center;
-  color:#C22ED0 ;
+  color: whitesmoke;
   font-weight: 700;
-  text-shadow: 0px 0px 4px black;
+  /* text-shadow: 0px 0px 4px black; */
   margin-top: 1rem;
   font-size: 2.5rem;
   text-transform: uppercase;
-  background-color: #5FFAE0;
- padding-top: 3rem;
+  background-color: #299aef;
+  padding-top: 3rem;
 }
+
 .ImageComapreBg-card-grid {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
@@ -27,24 +29,25 @@
   align-items: stretch;
   justify-content: center;
 }
-.ImageComapreBg-card  {
+.ImageComapreBg-card {
   width: 300px;
   display: flex;
   align-items: center;
   position: relative;
   margin: 50px 0 45px;
   border: 2px solid rgb(243, 245, 247);
-transition: all 0.4s ease 0s;
-background: floralwhite;
+  transition: all 0.4s ease 0s;
+  background: floralwhite;
+  border-radius: 10px;
 }
-.ImageComapreBg-card:hover{
-  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+.ImageComapreBg-card:hover {
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
 }
-.ImageComapreBg-card, img{
+.ImageComapreBg-card,
+img {
   position: relative;
   width: 100%;
   overflow: hidden;
   padding: 2px 2px 2px 2px;
-  
+  border-radius: 10px;
 }
-

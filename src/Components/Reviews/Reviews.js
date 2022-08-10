@@ -5,7 +5,7 @@ const Reviews = () => {
 
   return (
   <div className='testimonial-container' id="review">
-      <h1>PATIENTS REVIEWS</h1>
+      <h1>PATIENT REVIEWS</h1>
     <Carousel variant="dark">
     <Carousel.Item interval={1000} className>
             <Card className="text-center testimonial-container-card">

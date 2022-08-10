@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React, { useEffect} from "react";
 import "./ReactCardSlider.css";
 import { MdKeyboardArrowLeft, MdKeyboardArrowRight } from "react-icons/md";
 
@@ -474,7 +474,7 @@ const ReactCardSlider = (props) => {
       },
   ];
 
-  const slider = document.getElementById("slider");
+//   const slider = document.getElementById("slider");
 
   const slideLeft = () => {
     const slider = document.getElementById("slider");

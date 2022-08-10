@@ -12,7 +12,7 @@ function WhyChoose() {
 <Card border="light" className='text-center'>
     <i className="far fa-check-circle"></i>
     <Card.Body>
-      <Card.Title>Compreshensive Services</Card.Title>
+      <Card.Title>Comprehensive Services</Card.Title>
       <Card.Text>
         We're your one-stop-shop for dentail care.
         <br></br>Whatever you're experiencing, we have 
@@ -45,7 +45,7 @@ function WhyChoose() {
         Enjoy a relaxing office evironment,
         <br></br>welcoming team and sooting amenities.
         <br></br>Plus, we offer advanced sedation options
-        <br></br>to ensure your confort and help those
+        <br></br>to ensure your comfort and help those
         <br></br>with anxiety
       </Card.Text>
     </Card.Body>
