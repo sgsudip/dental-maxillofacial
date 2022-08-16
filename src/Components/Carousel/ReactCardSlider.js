@@ -498,7 +498,7 @@ const ReactCardSlider = (props) => {
   useEffect(() => {
     window.slider = document.getElementById("slider");
     
-    window.setInterval(slideRight, 5000);
+    window.setInterval(slideRight, 10000);
   }, []);
 
   return (

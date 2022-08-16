@@ -23,6 +23,7 @@
   overflow: hidden;
   position: relative;
   color: #ffffff;
+  background-color: #0abed5 !important;
 }
 
 .postcard.light {
@@ -75,18 +76,22 @@
   position: relative;
   display: flex;
   flex-direction: column;
+  background-color: #0abed5 !important;
 }
 .postcard .postcard__preview-txt {
   overflow: hidden;
   text-overflow: ellipsis;
   text-align: justify;
   height: 100%;
+  color: white;
+  line-height: 30px;
+  padding: 20px;
 }
 
 .postcard .postcard__tagbox .tag__item:hover {
   background: rgba(83, 83, 83, 0.8);
 }
-.postcard:before {
+/* .postcard:before {
   content: "";
   position: absolute;
   top: 0;
@@ -96,7 +101,7 @@
   background-image: linear-gradient(-70deg, #c22ed0, transparent 50%);
   opacity: 1;
   border-radius: 10px;
-}
+} */
 .postcard:hover .postcard__bar {
   width: 100px;
 }
@@ -120,7 +125,7 @@
     padding: 3rem;
     width: 100%;
   }
-  .postcard .media.postcard__text:before {
+  /* .postcard .media.postcard__text:before {
     content: "";
     position: absolute;
     display: block;
@@ -128,7 +133,7 @@
     top: -20%;
     height: 130%;
     width: 55px;
-  }
+  } */
   .postcard:hover .postcard__img {
     transform: scale(1.1);
   }
@@ -152,14 +157,14 @@
     padding: 2rem 3.5rem;
   }
 
-  .postcard__text:before {
+  /* .postcard__text:before {
     content: "";
     position: absolute;
     display: block;
     top: -20%;
     height: 130%;
     width: 55px;
-  }
+  } */
 
   .postcard.dark .postcard__text:before {
     background: #18151f;
